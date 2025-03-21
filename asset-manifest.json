@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/EKHeyrosa.github.io/static/css/main.c664eb0c.css",
-    "main.js": "/EKHeyrosa.github.io/static/js/main.9ba3d7f5.js",
-    "index.html": "/EKHeyrosa.github.io/index.html",
-    "main.c664eb0c.css.map": "/EKHeyrosa.github.io/static/css/main.c664eb0c.css.map",
-    "main.9ba3d7f5.js.map": "/EKHeyrosa.github.io/static/js/main.9ba3d7f5.js.map"
+    "main.css": "/static/css/main.c664eb0c.css",
+    "main.js": "/static/js/main.aef65615.js",
+    "index.html": "/index.html",
+    "main.c664eb0c.css.map": "/static/css/main.c664eb0c.css.map",
+    "main.aef65615.js.map": "/static/js/main.aef65615.js.map"
   },
   "entrypoints": [
     "static/css/main.c664eb0c.css",
-    "static/js/main.9ba3d7f5.js"
+    "static/js/main.aef65615.js"
   ]
 }
