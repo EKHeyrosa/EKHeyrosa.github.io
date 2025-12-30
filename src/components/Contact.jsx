@@ -9,8 +9,8 @@ export default function Contact() {
                     Email: elijahheyrosa@gmail.com
                 </p>
                 <div className="contact-button-box">
-                    <a href="https://www.linkedin.com/in/elijahheyrosa/" className="contact-linkedin-button">My LinkedIn</a>
-                    <a href="https://github.com/EKHeyrosa" className="contact-github-button">My GitHub</a>
+                    <a href="https://www.linkedin.com/in/elijahheyrosa/" className="contact-linkedin-button">LinkedIn</a>
+                    <a href="https://github.com/EKHeyrosa" className="contact-github-button">GitHub</a>
                 </div>
             </div>
         </section>

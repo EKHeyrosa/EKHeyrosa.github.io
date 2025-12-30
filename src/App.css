@@ -1,6 +1,22 @@
+/* Colors
+  #121212 - Toned Black
+  #1E212B - Lighter Toned Black
+
+  #edf2f4 - Off White
+  #00a6ed - Blue
+*/
 
 .App {
-  background-color: #121212;
+  /* --primary-color: #2081DF;
+  --secondary-color: #f9f9f9;
+  --tertiary-color: #20DFDD; */
+
+  --primary-color: #011627;
+  --secondary-color: #fdfffc;
+  --tertiary-color: #84ffc9;
+
+  /* background-color: #121212; */
+  background-color: var(--secondary-color);
   color: white;
 }
 
@@ -10,15 +26,18 @@ html {
 
 body {
   margin: 0;
-  font-family: "Open Sans", sans-serif;
-  font-style: bold;
+  /* font-family: "Open Sans", sans-serif; */
+  /* font-family: "Nunito", sans-serif; */
+  font-family: "Nunito Sans", sans-serif;
+  /* font-family: "Quicksand", sans-serif; */
+  font-style: normal;
 }
 
 /* NavBar Styles*/
 
 .navbar-section {
   padding: 15px 2%;
-  background-color: #1E212B;
+  background-color: var(--primary-color);
 }
 
 .navbar-content {
@@ -60,6 +79,7 @@ body {
   gap: 60px;
   padding: 133px 15%;
   flex-wrap: wrap;
+  color: #121212;
 }
 
 .me-section-content-box {
@@ -80,6 +100,9 @@ h1 {
 
 .me-section-img {
   display: flex;
+  background-color: var(--tertiary-color);
+  border-radius: 50% 15% 50% 15%;
+  box-shadow: 10px 10px lightblue;
 }
 
 .me-section-img > img {
@@ -94,7 +117,7 @@ h1 {
   display: flex;
   justify-content: center;
   padding: 35px 15% 50px 15%;
-  background-color: #1E212B;
+  background-color: var(--primary-color);
 }
 
 .about-content {
@@ -108,7 +131,8 @@ h1 {
   display: flex;
   justify-content: center;
   padding: 60px 15%;
-  background-color: #121212;
+  color: #121212;
+  /* background-color: #121212; */
 }
 
 .skills-section-content {
@@ -131,10 +155,11 @@ h1 {
 
 .skills-section-skill {
   display: flex;
-  background-color: #124559;
+  background-color: var(--tertiary-color);
   padding: 0.7% 1%;
   border-radius: 5px;
-  outline: 2px solid white;
+  box-shadow: 10px 10px lightblue;
+  /* outline: 2px solid #00171f; */
 }
 
 /* Projects Section Styles */
@@ -169,7 +194,7 @@ h1 {
 
 .projects-card {
   width: 425px;
-  background-color: #1E212B;
+  background-color: var(--primary-color);
   border-radius: 10px;
   padding: 2%;
 }
@@ -228,7 +253,8 @@ hr {
   display: flex;
   justify-content: center;
   padding: 15px 15% 100px 15%;
-  background-color: #121212;
+  color: #121212;
+  /* background-color: #121212; */
 }
 
 .contact-content {
@@ -239,7 +265,7 @@ hr {
 .contact-button-box {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 15px;
 }
 
 .contact-button-box img {
@@ -247,37 +273,39 @@ hr {
   height: 20px;
 }
 
+.contact-linkedin-button {
+  font-size: 16px;
+  /* font-weight: 100; */
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  background-color: #0072b1;
+  color: #fff;
+  padding: 6px 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  width: auto;
+  box-shadow: 10px 10px lightblue;
+}
+
 .contact-github-button {
   font-size: 16px;
-  font-weight: 100;
+  /* font-weight: 100; */
   letter-spacing: 0.5px;
   text-decoration: none;
   background-color: #2DBA4E;
-  color: #000;
+  color: #fff;
   padding: 6px 10px;
   margin-top: 10px;
   border-radius: 5px;
   width: auto;
-}
-
-.contact-linkedin-button {
-  font-size: 16px;
-  font-weight: 100;
-  letter-spacing: 0.5px;
-  text-decoration: none;
-  background-color: #009ff7;
-  color: #000;
-  padding: 6px 10px;
-  margin-top: 10px;
-  border-radius: 5px;
-  width: auto;
+  box-shadow: 10px 10px lightblue;
 }
 
 /* Footer Styles */
 
 .footer-section {
   padding: 15px 2%;
-  background-color: #1E212B;
+  background-color: var(--primary-color);
 }
 
 .footer-content {
@@ -304,4 +332,9 @@ hr {
   gap: 15px;
   font-size: 1.3em;
   padding: 2%;
+}
+
+.footer-hr-line {
+  border-color: #f9f9f9;
+  background-color: #f9f9f9;
 }

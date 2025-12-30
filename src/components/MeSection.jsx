@@ -16,7 +16,7 @@ export default function MeSection() {
                 {/* <button className="btn btn-primary">View My Work</button> */}
             </div>
             <div className="me-section-img">
-                <img src=".\img\elijah-image1.jpg" alt="Image of Me" />
+                <img src=".\img\elijah-image1.jpg" alt="Portrait of me" />
             </div>
         </section>
     );

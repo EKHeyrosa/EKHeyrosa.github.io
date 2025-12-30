@@ -2,7 +2,7 @@ export default function Footer() {
     return (
         <section id="footer" className="footer-section">
             <div className="footer-content">
-                <hr />
+                <hr className="footer-hr-line"></hr>
                 <nav className="footer-nav-links">
                     <a href="#about" className="footer-about-link">
                         About me
@@ -18,7 +18,7 @@ export default function Footer() {
                     </a>
                 </nav>
                 <p className="footer-copyright-text">
-                    @2025 Elijah Kent Heyrosa. All Rights Reserved
+                    @2025 Elijah Kent Heyrosa.
                 </p>
             </div>
         </section>
