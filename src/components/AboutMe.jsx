@@ -6,27 +6,40 @@ export default function About() {
                     About Me
                 </h1>
                 <p className="about-text">
-                    Hello! My name is Elijah Kent Heyrosa, and I’m a passionate web developer based 
-                    in Canada. Currently, I’m a student at the New Brunswick Community College, 
-                    nearing graduation and excited to embark on the next chapter of my career. <br /> <br />
-                    
-                    Over the course of my studies, I’ve gained valuable experience working with a 
-                    diverse array of programming languages, including C#, Java, PHP, JavaScript, 
-                    and TypeScript, as well as frameworks such as AngularJS, ASP.NET Core, Spring 
-                    Boot, and ReactJS. My journey has also involved working with databases like 
-                    SSMS, MySQL, and MongoDB, broadening my technical expertise. <br /><br />
+                    Hello! My name is Elijah Kent Heyrosa, and I'm a passionate web developer based in Canada. 
+                    I graduated from the New Brunswick Community College in June 2025, and I'm excited to continue 
+                    building my career in the tech industry.
+                </p> 
+                
+                <p className="about-text">
+                    Throughout my studies and project experience, I've worked extensively with programming languages 
+                    such as C#, Java, PHP, JavaScript, and TypeScript, along with frameworks like AngularJS, ASP.NET Core, 
+                    Spring Boot, and ReactJS. I've also gained practical experience working with databases including SSMS, 
+                    MySQL, and MongoDB, giving me a strong full-stack foundation.
+                </p>
 
-                    Beyond technical skills, I’ve learned what it takes to excel as a web 
-                    developer: collaborating effectively within teams, honing strong communication 
-                    skills, managing time and tasks efficiently, and solving complex problems with 
-                    creativity and focus. <br /><br />
+                <p className="about-text">
+                    In addition to technical skills, I've developed a wide range of transferable soft skills that support my 
+                    work as a developer, including:
+                </p>
 
-                    My passion for web development began in high school when I discovered 
-                    programming. I’ve always loved creating, and programming became the perfect 
-                    outlet for my creativity. It ignited my fascination with cutting-edge 
-                    technologies and fueled my curiosity to learn how to leverage them in 
-                    meaningful ways. I thrive on continuously expanding my knowledge and applying 
-                    that drive to create impactful solutions through my work.
+                <p className="about-text">
+                    <ul>
+                        <li>Adaptability — learning new tools and technologies quickly</li>
+                        <li>Critical thinking — approaching challenges with analytical and creative problem-solving</li>
+                        <li>Team collaboration — contributing effectively in group and cross-functional environments</li>
+                        <li>Communication — conveying technical concepts clearly to diverse audiences</li>
+                        <li>Time management — organizing tasks and meeting deadlines efficiently</li>
+                        <li>Attention to detail — writing clean, reliable, and maintainable code</li>
+                        <li>Creativity — bringing fresh ideas and innovative solutions to projects</li>
+                    </ul>
+                </p>
+
+                <p className="about-text">
+                    My passion for web development began in high school, where I first discovered programming. 
+                    Creating things from scratch sparked my curiosity and inspired me to explore how technology can 
+                    be used to build meaningful, user-focused solutions. That passion continues to drive me today as I 
+                    grow, learn, and make an impact through my work.
                 </p>
             </div>
         </section>

@@ -8,9 +8,9 @@ export default function MeSection() {
                         Elijah Kent Heyrosa
                     </h1>
                     <p className="me-section-description">
-                        Aspiring Web Developer nearing graduation, with experience in a wide 
-                        range of programming languages and development frameworks. Proficient 
-                        in problem-solving and collaboration skills.
+                        Web Developer with hands-on experience across a wide range of programming languages and 
+                        development frameworks. Strong problem-solving abilities, collaborative mindset, and a solid 
+                        foundation of transferable soft skills.
                     </p>
                 </div>
                 {/* <button className="btn btn-primary">View My Work</button> */}
